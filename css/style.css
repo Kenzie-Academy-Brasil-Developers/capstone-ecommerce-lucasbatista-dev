@@ -1,0 +1,280 @@
+.containerPrincipal {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.containerPrincipal .containerTopo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    6px 4px 12px 3px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 6px 4px 12px 3px rgba(0, 0, 0, 0);
+}
+.containerPrincipal .containerTopo .divLogo {
+  display: flex;
+  width: 320px;
+  height: 140px;
+}
+.containerPrincipal .containerTopo .divLogo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.containerPrincipal .containerTopo .divBotoes {
+  display: flex;
+  justify-content: space-around;
+  width: 380px;
+}
+.containerPrincipal .containerTopo .divBotoes .botoes {
+  font-size: 14px;
+  transition: all 0.5s;
+  border: 2px solid transparent;
+  background-color: white;
+}
+.containerPrincipal .containerTopo .divBotoes .botoes:hover {
+  border: 2px solid #2e245e;
+}
+
+.containerPrincipal .containerCorpo {
+  display: flex;
+  width: 100%;
+}
+.containerPrincipal .containerCorpo .vitrineProdutos {
+  display: flex;
+  width: 900px;
+}
+.containerPrincipal .containerCorpo .vitrineProdutos .listaProdutos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.containerPrincipal .containerCorpo .vitrineProdutos .listaProdutos .produto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 270px;
+  height: 380px;
+  margin-top: 10px;
+  border: 1px solid #f5f5f5;
+}
+.containerPrincipal
+  .containerCorpo
+  .vitrineProdutos
+  .listaProdutos
+  .produto:hover {
+  border: 2px solid #37268c;
+}
+.containerPrincipal
+  .containerCorpo
+  .vitrineProdutos
+  .listaProdutos
+  .produto
+  .caixaImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.containerPrincipal
+  .containerCorpo
+  .vitrineProdutos
+  .listaProdutos
+  .produto
+  .tagProduto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 20px;
+  background-color: #37268c;
+  color: #f5f5f5;
+  font-size: 10px;
+  margin-left: 10px;
+}
+.containerPrincipal
+  .containerCorpo
+  .vitrineProdutos
+  .listaProdutos
+  .produto
+  .tituloProduto {
+  margin-left: 10px;
+}
+.containerPrincipal
+  .containerCorpo
+  .vitrineProdutos
+  .listaProdutos
+  .produto
+  .informacaoProduto {
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.containerPrincipal
+  .containerCorpo
+  .vitrineProdutos
+  .listaProdutos
+  .produto
+  .precoProduto {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #2e245e;
+}
+.containerPrincipal
+  .containerCorpo
+  .vitrineProdutos
+  .listaProdutos
+  .produto
+  .adcCarrinho {
+  margin-left: 10px;
+  transition: all 0.5s;
+  border: 2px solid transparent;
+  background-color: white;
+}
+.containerPrincipal
+  .containerCorpo
+  .vitrineProdutos
+  .listaProdutos
+  .produto
+  .adcCarrinho:hover {
+  border: 2px solid #2e245e;
+}
+.containerPrincipal .containerCorpo .menuLateral {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 600px;
+
+  margin-top: 10px;
+}
+.containerPrincipal .containerCorpo .menuLateral .pesquisarProduto {
+  display: flex;
+  width: 100%;
+  height: 55px;
+  align-items: center;
+  justify-content: space-between;
+}
+.containerPrincipal
+  .containerCorpo
+  .menuLateral
+  .pesquisarProduto
+  .buscarProduto {
+  height: 70%;
+  width: 68%;
+  border: none;
+  background-color: #f5f5f5;
+}
+.containerPrincipal .containerCorpo .menuLateral .pesquisarProduto button {
+  width: 30%;
+  height: 70%;
+  border: 1px solid black;
+  background-color: #37268c;
+  color: white;
+  font-size: 14px;
+}
+.containerPrincipal .containerCorpo .menuLateral .asideCarrinho {
+  margin-top: 10px;
+  width: 100%;
+  height: 545px;
+}
+.containerPrincipal .containerCorpo .menuLateral .asideCarrinho .asideTitulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 100%;
+  background-color: #37268c;
+  color: white;
+}
+.menuLateral .asideProdutos {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 75%;
+  overflow-y: auto;
+}
+.menuLateral .asideProdutos ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.menuLateral .asideProdutos ul li {
+  width: 90%;
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.menuLateral .asideProdutos li .asideImgProduto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  margin-left: 10px;
+}
+.menuLateral .asideProdutos li .asideImgProduto img {
+  width: 100%;
+  height: 100%;
+}
+.menuLateral .asideProdutos li .asideInfoProdutos {
+  height: 78px;
+  width: 195px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+.menuLateral .asideProdutos li .asideInfoProdutos h2 {
+  font-size: 14px;
+}
+.menuLateral .asideProdutos li .asideInfoProdutos p {
+  color: #2e245e;
+  font-size: 12px;
+  font-weight: bold;
+}
+.menuLateral .asideProdutos li .asideInfoProdutos button {
+  border: none;
+  background-color: #f5f5f5;
+  padding-left: 0;
+  transition: all 0.5s;
+  border: 2px solid transparent;
+}
+.menuLateral .asideProdutos li .asideInfoProdutos button:hover {
+  border: 2px solid #2e245e;
+}
+.menuLateral .asideTotal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 18%;
+  background-color: #292929;
+}
+.menuLateral .asideTotal span {
+  display: flex;
+  width: 100%;
+  font-size: 12px;
+  font-weight: bold;
+  justify-content: flex-end;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  background-color: #f5f5f5;
+  width: 5px;
+  border-radius: 5px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 5px;
+  border: solid rgb(33, 8, 145) 1px;
+}

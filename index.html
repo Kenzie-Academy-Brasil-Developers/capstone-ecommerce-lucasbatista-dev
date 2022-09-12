@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="containerPrincipal">
+    <header class="containerTopo">
+      <div class="divLogo">
+        <img src="./img/WEAR.svg" alt="" />
+      </div>
+      <div class="divBotoes">
+        <button class="botoes">Todos</button>
+        <button class="botoes">Acessórios</button>
+        <button class="botoes">Calçados</button>
+        <button class="botoes">Camisetas</button>
+      </div>
+    </header>
+    <main class="containerCorpo">
+      <section class="vitrineProdutos">
+        <ul class="listaProdutos"></ul>
+      </section>
+      <aside class="menuLateral">
+        <div class="pesquisarProduto">
+          <input
+            placeholder="Digite aqui sua pesquisa"
+            class="buscarProduto"
+            type="search"
+          />
+          <button>Pesquisar</button>
+        </div>
+        <div class="asideCarrinho">
+          <h2 class="asideTitulo">Carrinho de compras</h2>
+          <div class="asideProdutos">
+            <ul>
+              <li>
+                <div class="asideImgProduto">
+                  <img src="./img/jaqueta.svg" alt="" />
+                </div>
+                <div class="asideInfoProdutos">
+                  <h2>Lightweight Jacket</h2>
+                  <p>R$ 100,00</p>
+                  <button>Remover produto</button>
+                </div>
+              </li>
+              <li>
+                <div class="asideImgProduto">
+                  <img src="./img/jaqueta.svg" alt="" />
+                </div>
+                <div class="asideInfoProdutos">
+                  <h2>Lightweight Jacket</h2>
+                  <p>R$ 100,00</p>
+                  <button>Remover produto</button>
+                </div>
+              </li>
+              <li>
+                <div class="asideImgProduto">
+                  <img src="./img/jaqueta.svg" alt="" />
+                </div>
+                <div class="asideInfoProdutos">
+                  <h2>Lightweight Jacket</h2>
+                  <p>R$ 100,00</p>
+                  <button>Remover produto</button>
+                </div>
+              </li>
+              <li>
+                <div class="asideImgProduto">
+                  <img src="./img/jaqueta.svg" alt="" />
+                </div>
+                <div class="asideInfoProdutos">
+                  <h2>Lightweight Jacket</h2>
+                  <p>R$ 100,00</p>
+                  <button>Remover produto</button>
+                </div>
+              </li>
+              <li>
+                <div class="asideImgProduto">
+                  <img src="./img/jaqueta.svg" alt="" />
+                </div>
+                <div class="asideInfoProdutos">
+                  <h2>Lightweight Jacket</h2>
+                  <p>R$ 100,00</p>
+                  <button>Remover produto</button>
+                </div>
+              </li>
+              <li>
+                <div class="asideImgProduto">
+                  <img src="./img/jaqueta.svg" alt="" />
+                </div>
+                <div class="asideInfoProdutos">
+                  <h2>Lightweight Jacket</h2>
+                  <p>R$ 100,00</p>
+                  <button>Remover produto</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="asideTotal">
+            <span>Quantidade: <span>3</span></span>
+            <span>Total: <span>R$200,00</span></span>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <script src="./js/database.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
