@@ -1,107 +1,58 @@
-Projeto - Projeto Front End.
-============================
+# Projeto Front End: E-commerce #
 
-Tópicos do conteúdo
+## Sobre o Projeto
 
-Implementando Layout
-====================
+Neste projeto, desenvolveremos o layout de um e-commerce utilizando HTML e CSS, seguindo um style guide fornecido. O objetivo é construir a estrutura e estilização da aplicação, focando inicialmente no HTML e na marcação semântica adequada, imagens e distribuição de conteúdo. Em seguida, iremos trabalhar na estilização, definindo fontes, cores e posicionamento, de acordo com as especificações do projeto.
 
-Introdução
-----------
+## Style Guide
+Utilizaremos o  [style Guide](https://drive.google.com/file/d/1HY46YPKsOQAXj9Wj76tcLKE8K2oV9xv_/view?usp=sharing) fornecido como referência para o desenvolvimento do layout.
 
-Nesta entrega construiremos o layout de um e-commerce. Seguiremos um style guide, usaremos html e css. Bora para esse desafio?
+## Estrutura HTML
 
-Pegaremos como base esse [style Guide.](https://drive.google.com/file/d/1HY46YPKsOQAXj9Wj76tcLKE8K2oV9xv_/view?usp=sharing)
+A estrutura do HTML será construída de acordo com a marcação semântica mais apropriada, seguindo as diretrizes apresentadas durante o curso. Faremos uso das tags semânticas disponíveis para a distribuição adequada do conteúdo.
 
-Tarefa
-======
+A estrutura HTML do projeto será composta pelos seguintes elementos principais:
 
-Primeiramente recomendamos que você analise o layout e o style guide.
+- **Header**: Contendo o logotipo e os botões de navegação, configurados conforme o layout definido no PDF.
+- **Vitrine**: Espaço onde serão exibidos os cards de produtos e suas informações.
+- **Card**: Criação dos cards de produtos com as respectivas informações, como título, foto, descrição, preço e um botão "Adicionar ao Carrinho".
+- **Barra de pesquisa**: Com um campo de input para inserir texto e um botão para realizar a pesquisa.
+- **Carrinho de compras**: Local onde os produtos selecionados serão exibidos, inicialmente vazio. Será possível adicionar e remover produtos através do DOM. O carrinho também deve exibir a contagem total de itens e o valor total da compra.
 
-**Não tenha pressa de conhecer o projeto antes de partir para ação!** Após a análise comece estruturando o html.
+## Estilização e Posicionamento
 
-Utilize todos os recursos que aprendeu até aqui, tags semânticas, propriedades css, reset e/ou normalize e dicas de boas práticas...
+A estilização e alinhamento dos elementos devem seguir o layout definido no PDF, com o objetivo de se aproximar ao máximo da definição visual do projeto.
 
-Tema
-----
+## Dinamizando com o DOM
 
-No layout apresentamos um e-commerce de vestuário, mas você pode definir um tema de sua preferência, como de jogos, pet shop, perfumarias, entre outros.
+Nesta etapa, faremos a parte do projeto ficar mais dinâmica, utilizando o DOM para tornar os elementos interativos. Faremos com que todos os itens funcionem de forma específica, conforme as seguintes diretrizes:
 
-A Estilização
--------------
+- **Vitrine**: Os cards de produtos serão criados dinamicamente e atribuídos à vitrine utilizando o DOM. Além disso, o botão de compra será funcional, permitindo adicionar o produto ao carrinho.
+- **Carrinho de compras**: Será possível adicionar e remover produtos do carrinho utilizando o DOM. O carrinho exibirá a contagem total de itens selecionados e o valor total da compra.
+- Estilização e alinhamento devem ser mantidos de acordo com o layout definido no PDF.
 
-Cobraremos que seja seguido o style guide. Você é livre para aprimorar como quiser. Você pode adicionar ícones, hover e etc.
+## Como utilizar o projeto
 
-🐣 Passo a Passo
-================
+1. Faça o download ou clone o repositório do projeto.
+2. Abra o arquivo index.html em um navegador web.
+3. Insira um valor no campo de entrada e pressione Enter ou clique em "OK".
+4. Será exibida uma caixa de diálogo com o resultado da função snapCracklePrime.
+5. Para visualizar os resultados no console, abra o console do navegador.
 
-### Preparando o repositório
+## Considerações Finais
 
-Para começar primeiro acesse [este link](https://classroom.github.com/a/QZo1QBEL). O repositório contém apenas as imagens e o readme, você precisará criar o html e o css do zero.
+Neste projeto de desenvolvimento de um e-commerce, seguimos um style guide fornecido para criar o layout e a estilização utilizando HTML e CSS. Iniciamos construindo a estrutura do HTML com marcação semântica apropriada e distribuição de conteúdo.
 
-### O que faremos
+Em seguida, realizamos a estilização e posicionamento dos elementos, buscando nos aproximar ao máximo do que foi definido no style guide. Trabalhamos na definição de fonts, cores e alinhamento, garantindo uma apresentação visual atraente e coerente.
 
-Para nos organizar melhor começaremos com a estilização e construção da estrutura da aplicação. Trabalhemos inicialmente no HTML, construção das tags semânticas.
+Na etapa de dinamização com o DOM, tornamos a página mais interativa. Utilizamos o DOM para criar os cards de produtos de forma dinâmica, atribuindo-os à vitrine, e implementamos a funcionalidade de adicionar produtos ao carrinho. Também possibilitamos a adição e remoção de produtos do carrinho através do DOM, exibindo a contagem total de itens e o valor total da compra.
 
-A marcação semântica mais apropriada, imagens e distribuição de conteúdo.
+Em caso de dúvidas ou sugestões, não hesite em entrar em contato.
 
-Como foi visto durante o curso. Construiremos toda a parte de fonts, cores e posicionamento nesse momento, tentando nos aproximar ao máximo do que está na definição do [projeto](https://drive.google.com/file/d/1HY46YPKsOQAXj9Wj76tcLKE8K2oV9xv_/view?usp=sharing).
+---
 
-Aqui vamos nos concentrar apenas na criação do estilo, por enquanto sem funcionalidades.
+## Contato
 
--   **Header** → Com sua **logo**, e seus botões de navegação, configurados como demonstrado no layout em pdf.
+Você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/lucasbatista-dev/).
 
--   **Vitrine** → Espaço onde ficarão os cards de produtos e todas as suas informações
 
--   **Card** → Criação dos cards como demonstrado acima com suas respectivas informações com título, foto, descrição, preço e um botão de adicionar ao carrinho.
-
--   **Barra de pesquisa** → Com um input para colocar texto e um botão para pesquisar.
-
--   **Carrinho de compras** → Criação do local onde será coloca posteriormente os produtos, iniciando vazio.
-
--   Estilização e alinhamento como demonstrado no layout.
-
-👨🏿‍💻 Dinamizando com o DOM
-=============================
-
-### 🐣 Passo a Passo
-
-Chegou a hora de tornarmos as coisas mais dinâmicas.
-
-Focaremos na inteligência da página, com o DOM, faremos todos os itens funcionarem de forma específica como demonstrado abaixo.
-
--   **Vitrine** → Espaço onde ficarão os cards de produtos e todas as suas informações
-
--   **Card** → Todos os cards devem ser criados de forma dinâmica, ou seja, **criados** e atribuídos a vitrine pelo DOM, além do botão de compra funcional e adicionando o produto ao carrinho.
-
--   **Carrinho de compras** → Deverá ser possível adicionar e remover produtos do carrinho por meio do DOM. O carrinho deverá fazer a **contagem total dos itens**, assim como apresentar o valor **total da compra**.
-
--   Estilização e alinhamento como demonstrado no layout em pdf
-
-#### Quer se desafiar?
-
-#### **Tente implementar os itens abaixo:**
-
-Lembre-se que o são elementos **não obrigatórios** e que tem uma **dificuldade elevada.**
-
--   **Header** → Demonstrar os elementos na vitrine conforme o tipo clicado no header, por padrão iniciar em todos.
-
--   **Exemplos:**
-
-    1.  Caso clique em **calças**, deve demonstrar apenas os produtos que tenham a **tag calças** na vitrine.
-
-    2.  Caso clique em **camisetas**, deve demonstrar apenas os produtos que tenham a **tag camisetas** na vitrine.
-
--   **Barra de pesquisa** → Demonstrar os produtos na vitrine conforme o que for escrito na barra de pesquisa
-
--   **Exemplos:**
-
-    1.  Caso digite **Black Hat**, deve demonstrar apenas os produtos que tenham no **nome Black Hat** na vitrine.
-
-    2.  Caso digite **Shirt**, deve demonstrar apenas os produtos que tenham no **nome Shirt** na vitrine.
-
-### Envio
-
-Faça o push do código para o seu repositório GitHub, altere a visibilidade do repositório para internal e implemente-o GitHub pages. No Canvas, por favor, envie sua url do GitHub Pages: (ex:https://nomerandomico.pages.github.io/) e envie o link do seu repositório nos comentários. Atenção, seu repositório deverá ser compartilhado apenas com a organização. (Internal)
-
-Que tal **compartilhar **nas redes sociais? Esse projeto pode servir de **portfólio **no seu **LinkedIn**, ou quem sabe enfeitar por um longo tempo a sua página do **Instagram**! Vamos lá, mostre a todos o seu crescimento, diversão e esforço dedicado em cada projeto!
