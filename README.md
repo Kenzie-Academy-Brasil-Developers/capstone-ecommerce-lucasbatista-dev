@@ -31,13 +31,6 @@ Nesta etapa, faremos a parte do projeto ficar mais dinâmica, utilizando o DOM p
 - **Carrinho de compras**: Será possível adicionar e remover produtos do carrinho utilizando o DOM. O carrinho exibirá a contagem total de itens selecionados e o valor total da compra.
 - Estilização e alinhamento devem ser mantidos de acordo com o layout definido no PDF.
 
-## Como utilizar o projeto
-
-1. Faça o download ou clone o repositório do projeto.
-2. Abra o arquivo index.html em um navegador web.
-3. Insira um valor no campo de entrada e pressione Enter ou clique em "OK".
-4. Será exibida uma caixa de diálogo com o resultado da função snapCracklePrime.
-5. Para visualizar os resultados no console, abra o console do navegador.
 
 ## Considerações Finais
 
